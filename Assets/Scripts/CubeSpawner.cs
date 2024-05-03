@@ -11,7 +11,7 @@ public class CubeSpawner : MonoBehaviour
     Quaternion rotation;
     private double startTime = AudioSettings.dspTime;
     private SpawnPattern spawnPattern; // Stores the parsed spawn pattern
-    private const float CubeSpawnDelay = -0.5f;
+    public float CubeSpawnDelay = -1f;
  
     private bool allEventsProcessed = false;
     public float spawnRate = 1.0f; // Base spawn rate
@@ -37,10 +37,10 @@ public class CubeSpawner : MonoBehaviour
                 Debug.Log("Number of events: " + spawnPattern.events.Count);
 
                 // Debug log to print each event individually
-                foreach (SpawnEvent e in spawnPattern.events)
+                /*foreach (SpawnEvent e in spawnPattern.events)
                 {
-                  //  Debug.Log("Event time: " + e.time + ", Line Index: " + e.lineIndex + ", Line Layer: " + e.lineLayer + ", Type: " + e.type + ", Cut Direction: " + e.cutDirection);
-                }
+                   Debug.Log("Event time: " + e.time + ", Line Index: " + e.lineIndex + ", Line Layer: " + e.lineLayer + ", Type: " + e.type + ", Cut Direction: " + e.cutDirection);
+                }*/
             }
             else
             {
@@ -61,25 +61,29 @@ public class CubeSpawner : MonoBehaviour
             float bpm = 126f;
             // Get the current DSP time
             double currentTime = AudioSettings.dspTime - startTime;
-            
+
             // Iterate through the list in reverse order
             for (int i = spawnPattern.events.Count - 1; i >= 0; i--)
             {
                 SpawnEvent currentEvent = spawnPattern.events[i];
+
                 double beatTime = (currentEvent.time * (60.0 / bpm)) + CubeSpawnDelay;
 
                 if (!stopSpawning & currentTime >= beatTime)
                 {
                     SpawnCube(currentEvent.lineIndex, currentEvent.lineLayer, currentEvent.type, currentEvent.cutDirection, currentEvent);
-                    spawnPattern.events.RemoveAt(i);  
-                }
-            }
+                    spawnPattern.events.RemoveAt(i);
 
+
+                }
+
+            }
             allEventsProcessed = spawnPattern.events.Count == 0;
+
         }
         else
         {
-            Debug.Log("All events processed. Spawning stopped."); 
+            Debug.Log("All events processed. Spawning stopped.");
         }
     }
 
@@ -139,15 +143,12 @@ public class CubeSpawner : MonoBehaviour
         MoveTowardsPlayer mover = cube.GetComponent<MoveTowardsPlayer>();
         if (mover)
         {
-
             // Increase speed after passing the player
             if (cube.transform.position.z < 0.5) 
             {
                 mover.speed *= 5.0f; // Increase speed by a factor of 5
             }
         }
-        // Update current spawn index for target selection
-        
     }
 
     

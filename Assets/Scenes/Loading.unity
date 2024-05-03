@@ -152,9 +152,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6681498027279052165, guid: 94947a61834150248b7ab2a004b9f3b5,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 50edd28222f777f47b9f19e7411fa705, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.107
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -251,10 +251,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 544851760}
-  sfxSource: {fileID: 0}
-  gameMusic: {fileID: 8300000, guid: 50edd28222f777f47b9f19e7411fa705, type: 3}
+  sfxSource: {fileID: 544851760}
+  slayMusic: {fileID: 8300000, guid: 50edd28222f777f47b9f19e7411fa705, type: 3}
+  "r\xF6lliMusic": {fileID: 8300000, guid: 1415a3ea400a6664c9a8e8b06083e3dc, type: 3}
   sliceEffect: {fileID: 0}
-  missEffect: {fileID: 0}
+  missEffects:
+  - {fileID: 8300000, guid: f93a061cc20b8914bb32b4bbc9ebbe0d, type: 3}
+  - {fileID: 8300000, guid: 4fedef6323f21764086fae67ff0f79a5, type: 3}
+  - {fileID: 8300000, guid: 2ffa0ca8c03f59847b193c9567935c92, type: 3}
 --- !u!4 &544851762
 Transform:
   m_ObjectHideFlags: 0

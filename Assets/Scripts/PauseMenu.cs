@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    // this is pause menu from my another project not sure yet if i will have time to create pause menu here. 
+
     public bool GameIsPaused = false; // Tracks if the game is currently paused
     public GameObject pauseMenuUI; // Reference to the pause menu UI 
     public GameObject gameWonUI; // Reference to the game won UI

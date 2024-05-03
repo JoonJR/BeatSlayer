@@ -13,9 +13,6 @@ public class RayController : MonoBehaviour
     private void Start()
     {
         AssignComponents();
-        // Check if this is the DebugScene
-        
-       
     }
    
 

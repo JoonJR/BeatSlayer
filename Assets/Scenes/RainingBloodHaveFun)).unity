@@ -2173,7 +2173,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 188054039}
         m_TargetAssemblyTypeName: MenuControl, Assembly-CSharp
-        m_MethodName: ReloadRainingBloodTeacher
+        m_MethodName: ReloadRainingBloodHaveFun
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4748,72 +4748,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1787805840}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1104270858
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1104270861}
-  - component: {fileID: 1104270860}
-  - component: {fileID: 1104270859}
-  m_Layer: 0
-  m_Name: MissZone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1104270859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104270858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f09bb14024f5d3429c2b3bd630f7812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &1104270860
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104270858}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1104270861
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104270858}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.318, z: -0.55}
-  m_LocalScale: {x: 4.2912, y: 2.555, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1105930922
 GameObject:
   m_ObjectHideFlags: 0
@@ -9366,7 +9300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3311fe605fd9f8a44ac180df0799a1f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPatternFile: {fileID: 4900000, guid: 2a450159fee729a4cba5d22d0acd2992, type: 3}
+  spawnPatternFile: {fileID: 4900000, guid: d363ec921d3959e4c8b452ea4c97965a, type: 3}
   cubePrefabs:
   - {fileID: 2938438967023479309, guid: 90955914202fcbc4b91b71a44cda08d9, type: 3}
   - {fileID: 3810049156554239130, guid: 356c86db1799adb4cb13786f6d0f1365, type: 3}
@@ -9383,7 +9317,6 @@ MonoBehaviour:
   - {fileID: 378266789}
   - {fileID: 1429111417}
   - {fileID: 1896078202}
-  CubeSpawnDelay: -2.2
   spawnRate: 1
   stopSpawning: 0
 --- !u!4 &1899877765
@@ -10250,6 +10183,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086560704}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2098817462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2098817465}
+  - component: {fileID: 2098817464}
+  - component: {fileID: 2098817463}
+  m_Layer: 0
+  m_Name: MissZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2098817463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098817462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f09bb14024f5d3429c2b3bd630f7812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2098817464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098817462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &2098817465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098817462}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.318, z: -0.55}
+  m_LocalScale: {x: 4.2912, y: 2.555, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2108002217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10577,9 +10576,9 @@ SceneRoots:
   - {fileID: 1899877765}
   - {fileID: 1206941586}
   - {fileID: 923200008}
-  - {fileID: 1104270861}
   - {fileID: 188054040}
   - {fileID: 1589881360}
   - {fileID: 462001905}
   - {fileID: 819493264}
   - {fileID: 730760794}
+  - {fileID: 2098817465}

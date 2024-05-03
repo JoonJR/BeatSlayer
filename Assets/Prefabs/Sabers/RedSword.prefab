@@ -181,6 +181,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06ac2190455e7e44cbfdec9973083a13,
+        type: 3}
+      propertyPath: m_TagString
+      value: Saber
+      objectReference: {fileID: 0}
     - target: {fileID: 7799791585773050134, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       propertyPath: m_Layer
@@ -206,6 +211,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2763551364459211177}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06ac2190455e7e44cbfdec9973083a13,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7588749908298441325}
   m_SourcePrefab: {fileID: 100100000, guid: 06ac2190455e7e44cbfdec9973083a13, type: 3}
 --- !u!4 &303390312797910413 stripped
 Transform:
@@ -263,3 +272,17 @@ MonoBehaviour:
   crossSectionMaterial: {fileID: 2100000, guid: e80af5a2c1e60c2499e2d76e147fa7ee,
     type: 2}
   cutForce: 3000
+--- !u!114 &7588749908298441325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116342184387112759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ec66d9c0d06b040b1ca043928a660c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEffect: {fileID: 5208835894710632739, guid: e04f626a902ebf84688e2d72d12adffd,
+    type: 3}

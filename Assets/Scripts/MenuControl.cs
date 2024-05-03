@@ -14,8 +14,18 @@ public class MenuControl : MonoBehaviour
     public void LoadRainingBloodJoona()
     {
         
-        SceneManager.LoadScene("RainingBloodNormal");
+        SceneManager.LoadScene("RainingBloodJoona");
         
+    }
+    public void ReloadRainingBloodJoona()
+    {
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.ResetGame();
+        }
+
+        SceneManager.LoadScene("RainingBloodJoona");
+
     }
     public void ReloadRainingBloodTeacher()
     {
@@ -26,6 +36,22 @@ public class MenuControl : MonoBehaviour
        
         SceneManager.LoadScene("RainingBloodTeacher");
         
+    }
+    public void LoadRainingBloodHaveFun()
+    {
+
+        SceneManager.LoadScene("RainingBloodHaveFun))");
+
+    }
+    public void ReloadRainingBloodHaveFun()
+    {
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.ResetGame();
+        }
+
+        SceneManager.LoadScene("RainingBloodHaveFun))");
+
     }
     public void LoadDebug()
     {

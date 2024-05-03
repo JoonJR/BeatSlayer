@@ -13,6 +13,7 @@ TagManager:
   - RightController
   - PauseMenuUI
   - DebugCanvas
+  - Saber
   layers:
   - Default
   - TransparentFX

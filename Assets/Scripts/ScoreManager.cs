@@ -14,7 +14,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     public int multiplier = 1;
 
     public int missCount = 0;  // Track consecutive misses
-    public int maxAllowedMisses = 5;
+    public int maxAllowedMisses = 100;
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI comboText;
@@ -43,7 +43,12 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         }
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
-   
+    void Start()
+    {
+        QualitySettings.vSyncCount = 0;  // Disable VSync
+        Application.targetFrameRate = 90; 
+    }
+
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Handling UI elements based on the scene
@@ -52,7 +57,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
             scoreText.enabled = false; // Hide score text in the main menu
 
         }
-        if (scene.name == "RainingBloodTeacher" | scene.name == "RainingBloodJoona")
+        if (scene.name == "RainingBloodTeacher" | scene.name == "RainingBloodJoona" |scene.name == "RainingBloodHaveFun))")
         {
             ControllerManager.Instance.DisableAllInteractors();
             //leftRayController = GameObject.FindGameObjectWithTag("LeftController").GetComponent<RayController>();
@@ -117,7 +122,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         multiplier = 1;
         UpdateScoreUI();
     }
-    // Example method to add points
+    
     public void AddScore(int basePoints)
     {
         if (combo > 0)
@@ -133,7 +138,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         UpdateScoreUI();
     }
 
-    // Call this method from wherever you handle your game logic
+    
     public void IncrementCombo()
     {
         combo++;
@@ -141,7 +146,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     }
     int DetermineMultiplier(int combo)
     {
-        return 1 + (combo / 10);  // Increase multiplier by 1 every 10 combos
+        return 1 + (combo / 5);  // Increase multiplier by 1 every 5 combos
     }
     public void MissedNote()
     {
@@ -170,13 +175,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         ApplyGravityToCubes();
 
         // Slow down time
-        StartCoroutine(SlowTime());
         StartCoroutine(SlowTimeAndMusic());
-       
-
-        // Show game over UI
-        // Assuming there is a method to activate the game over screen
-        //GameOverScreen.Instance.Show(true);
     }
     private void ApplyGravityToCubes()
     {
@@ -194,16 +193,18 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     }
     public void ResetGame()
     {
-        cubeSpawner = FindObjectOfType<CubeSpawner>();
-        cubeSpawner.stopSpawning = false;
-
+        Time.timeScale = 1;
+        AudioManager.Instance.musicSource.pitch = 1;
         missCount = 0;        // Reset miss count
         score = 0;            // Reset score
         combo = 0;            // Reset combo
         multiplier = 1;       // Reset multiplier
         UpdateScoreUI();      // Update the UI to reflect the reset
-        Time.timeScale = 1;  
+        gameOverUI.SetActive(false);
+        pauseMenuUI.SetActive(false);
 
+        cubeSpawner = FindObjectOfType<CubeSpawner>();
+        cubeSpawner.stopSpawning = false;
     }
     IEnumerator SlowTime()
     {
