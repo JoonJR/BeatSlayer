@@ -2,6 +2,7 @@ using UnityEngine;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Collections;
 
 public class CubeSpawner : MonoBehaviour
 {
@@ -16,9 +17,19 @@ public class CubeSpawner : MonoBehaviour
     private bool allEventsProcessed = false;
     public float spawnRate = 1.0f; // Base spawn rate
     public bool stopSpawning = false;
+
+    public delegate void OnAllCubesSpawned();
+    public event OnAllCubesSpawned AllCubesSpawned;
+
+    public float postSpawnDelay = 5.0f; // Delay after the last cube spawn before declaring win
+
     void Start()
     {
+        ParseData();
         
+    }
+    void ParseData()
+    {
         // Load the JSON text from the TextAsset
         string jsonData = spawnPatternFile.text;
 
@@ -53,8 +64,13 @@ public class CubeSpawner : MonoBehaviour
             Debug.LogError("Error parsing JSON data: " + e.Message);
         }
     }
-
     void Update()
+    {
+        
+        if (!allEventsProcessed)
+            CheckSpawnEvents();
+    }
+    private void CheckSpawnEvents()
     {
         if (spawnPattern != null && spawnPattern.events != null && !allEventsProcessed)
         {
@@ -71,14 +87,19 @@ public class CubeSpawner : MonoBehaviour
 
                 if (!stopSpawning & currentTime >= beatTime)
                 {
-                    SpawnCube(currentEvent.lineIndex, currentEvent.lineLayer, currentEvent.type, currentEvent.cutDirection, currentEvent);
+                    SpawnCube(currentEvent.lineIndex, currentEvent.lineLayer, currentEvent.type, currentEvent.cutDirection);
                     spawnPattern.events.RemoveAt(i);
 
 
                 }
 
             }
-            allEventsProcessed = spawnPattern.events.Count == 0;
+            if (spawnPattern.events.Count == 0)
+            {
+                allEventsProcessed = true;
+                Debug.Log("All cubes spawned.");
+                StartCoroutine(WaitAndDeclareWin());
+            }
 
         }
         else
@@ -86,8 +107,7 @@ public class CubeSpawner : MonoBehaviour
             Debug.Log("All events processed. Spawning stopped.");
         }
     }
-
-    private void SpawnCube(int lineIndex, int lineLayer, int type, int cutDirection, SpawnEvent currentEvent)
+    private void SpawnCube(int lineIndex, int lineLayer, int type, int cutDirection)
     {
         // Select spawn point based on line index and layer (3x4)
         Transform spawnPoint = spawnPoints[lineLayer * 4 + lineIndex];
@@ -155,6 +175,14 @@ public class CubeSpawner : MonoBehaviour
     public void StopSpawning()
     {
         stopSpawning = true;
+    }
+    IEnumerator WaitAndDeclareWin()
+    {
+        yield return new WaitForSeconds(postSpawnDelay);
+        if (AllCubesSpawned != null)
+            AllCubesSpawned();
+
+        ScoreManager.Instance.DisplayWinUI(); // This will trigger the display of the win menu and final score
     }
 }
 

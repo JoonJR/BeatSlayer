@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6514779762651571738}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70304215, y: 0.7111482, z: -0, w: 0}
-  m_LocalPosition: {x: -0.911, y: -0.014, z: 0}
+  m_LocalPosition: {x: -0.998, y: -0.009, z: 0}
   m_LocalScale: {x: 0.079125874, y: 0.07912587, z: 0.079125874}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8241671806905701495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Script: {fileID: 11500000, guid: 564a3e3307436f348aa0efc988f90dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocityAverageFrames: 5
@@ -119,22 +119,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.64255875
+      value: 0.6434398
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.295158
+      value: -0.2932324
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.64255875
+      value: -0.6434398
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.295158
+      value: 0.2932324
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
@@ -149,7 +149,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 49.343
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
@@ -214,7 +214,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7588749908298441325}
+      addedObject: {fileID: 5735087965730673849}
   m_SourcePrefab: {fileID: 100100000, guid: 06ac2190455e7e44cbfdec9973083a13, type: 3}
 --- !u!4 &303390312797910413 stripped
 Transform:
@@ -247,10 +247,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.09152537
-  m_Height: 4.180101
+  m_Radius: 0.2
+  m_Height: 4.2
   m_Direction: 0
-  m_Center: {x: 1.1384056, y: -0.022115512, z: -0}
+  m_Center: {x: 1.09, y: -0.022115512, z: -0}
 --- !u!114 &2763551364459211177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   crossSectionMaterial: {fileID: 2100000, guid: e80af5a2c1e60c2499e2d76e147fa7ee,
     type: 2}
   cutForce: 3000
---- !u!114 &7588749908298441325
+--- !u!114 &5735087965730673849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,3 +286,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionEffect: {fileID: 5208835894710632739, guid: e04f626a902ebf84688e2d72d12adffd,
     type: 3}
+  targetTag: Saber1

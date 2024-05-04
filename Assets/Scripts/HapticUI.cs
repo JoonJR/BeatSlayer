@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -58,4 +58,4 @@ public class HapticUI : MonoBehaviour
             }
         }
     }
-}
+}*/

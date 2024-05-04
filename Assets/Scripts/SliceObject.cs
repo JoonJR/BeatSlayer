@@ -35,6 +35,7 @@ public class SliceObject : MonoBehaviour
             if (cube != null && cube.IsCorrectSliceDirection(velocityEstimator.GetVelocityEstimate()))
             {
                 Slice(target);
+                AudioManager.Instance.PlaySliceEffect();
             }
         }
     }
@@ -42,7 +43,8 @@ public class SliceObject : MonoBehaviour
     private void Slice(GameObject target)
     {
         Vector3 velocity = velocityEstimator.GetVelocityEstimate();
-        Vector3 planeNormal = Vector3.Cross(endSlicePoint.position - startSlicePoint.position, velocity).normalized;
+        Vector3 planeNormal = Vector3.Cross(endSlicePoint.position - startSlicePoint.position, velocity);
+        planeNormal.Normalize();
         SlicedHull hull = target.Slice(endSlicePoint.position, planeNormal, crossSectionMaterial);
         if (hull != null)
         {

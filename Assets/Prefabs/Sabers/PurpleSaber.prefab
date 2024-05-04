@@ -72,12 +72,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3087253641506831480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Script: {fileID: 11500000, guid: 564a3e3307436f348aa0efc988f90dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 11
-  estimateOnAwake: 1
+  estimateOnAwake: 0
 --- !u!1001 &2289508708674740164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,9 +240,9 @@ MonoBehaviour:
   startSlicePoint: {fileID: 6753132913593709277}
   endSlicePoint: {fileID: 2002609736426225103}
   velocityEstimator: {fileID: 25120499815492345}
-  sliceableLayer:
+  sliceableLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   crossSectionMaterial: {fileID: 2100000, guid: a4863d32c44e2bb4c8c10112bafc40a6,
     type: 2}
   cutForce: 2000

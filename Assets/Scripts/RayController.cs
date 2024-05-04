@@ -8,7 +8,7 @@ public class RayController : MonoBehaviour
     public XRInteractorLineVisual lineVisual;
     public XRBaseControllerInteractor controllerInteractor;
 
-  
+    
 
     private void Start()
     {

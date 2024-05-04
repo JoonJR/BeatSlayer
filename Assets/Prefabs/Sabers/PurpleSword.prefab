@@ -41,12 +41,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6368147870514673294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Script: {fileID: 11500000, guid: 564a3e3307436f348aa0efc988f90dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocityAverageFrames: 5
   angularVelocityAverageFrames: 11
-  estimateOnAwake: 1
+  estimateOnAwake: 0
 --- !u!1 &7496949883790313776
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,11 +297,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06ac2190455e7e44cbfdec9973083a13,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6133901524910792540}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06ac2190455e7e44cbfdec9973083a13,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -3370188557443348203}
+      addedObject: {fileID: 318344650743852974}
   m_SourcePrefab: {fileID: 100100000, guid: 06ac2190455e7e44cbfdec9973083a13, type: 3}
 --- !u!1 &5156444524695437716 stripped
 GameObject:
@@ -324,7 +320,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -332,7 +328,7 @@ CapsuleCollider:
   m_Height: 4.180101
   m_Direction: 0
   m_Center: {x: 1.1384056, y: -0.022115512, z: -0}
---- !u!114 &6133901524910792540
+--- !u!114 &318344650743852974
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -352,21 +348,7 @@ MonoBehaviour:
     m_Bits: 64
   crossSectionMaterial: {fileID: 2100000, guid: 081d6f86838a8bf458c19a37ce993c29,
     type: 2}
-  cutForce: 3000
---- !u!114 &-3370188557443348203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5156444524695437716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ec66d9c0d06b040b1ca043928a660c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collisionEffect: {fileID: 5208835894710632739, guid: e04f626a902ebf84688e2d72d12adffd,
-    type: 3}
+  cutForce: 2000
 --- !u!4 &5531702739061087022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06ac2190455e7e44cbfdec9973083a13,

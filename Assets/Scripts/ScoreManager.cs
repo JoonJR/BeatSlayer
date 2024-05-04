@@ -3,8 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
-public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy to move them i think... 
+public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy to move them any i think... 
 {
     private static ScoreManager _instance;
     public static ScoreManager Instance => _instance;
@@ -20,21 +21,25 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     public TextMeshProUGUI comboText;
     public TextMeshProUGUI multiplierText;
 
-    public GameObject gameOverUI; // Reference to the game over UI 
-    public GameObject pauseMenuUI; // Reference to the game over UI 
+    public GameObject gameOverUI; 
+    public GameObject pauseMenuUI; 
+    public GameObject winMenuUI;
 
-    private ControllerManager controllerManager;
+    public TextMeshProUGUI finalScoreText;
+
+
     
+
     private CubeSpawner cubeSpawner;
     private void Awake()
     {
-        
+
 
         if (_instance == null)
         {
             _instance = this;
             DontDestroyOnLoad(gameObject);
-            
+
         }
         else if (_instance != this)
         {
@@ -46,7 +51,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     void Start()
     {
         QualitySettings.vSyncCount = 0;  // Disable VSync
-        Application.targetFrameRate = 90; 
+        Application.targetFrameRate = 90;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -57,7 +62,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
             scoreText.enabled = false; // Hide score text in the main menu
 
         }
-        if (scene.name == "RainingBloodTeacher" | scene.name == "RainingBloodJoona" |scene.name == "RainingBloodHaveFun))")
+        if (scene.name == "RainingBloodTeacher" | scene.name == "RainingBloodJoona" | scene.name == "RainingBloodHaveFun))")
         {
             ControllerManager.Instance.DisableAllInteractors();
             //leftRayController = GameObject.FindGameObjectWithTag("LeftController").GetComponent<RayController>();
@@ -65,7 +70,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
             //leftRayController.DisableRayInteractor();
             //rightRayController.DisableRayInteractor();
             FindUIElements();
-            ResetGame(); 
+            ResetGame();
             UpdateScoreUI();
         }
 
@@ -73,6 +78,14 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     // Method to find and assign the scoreText UI element
     public void FindUIElements()
     {
+        winMenuUI = GameObject.FindGameObjectWithTag("WinMenuUI");
+        if (winMenuUI != null)
+        {
+            GameObject finalScoreTextObj = GameObject.FindGameObjectWithTag("FinalScoreText");
+            finalScoreText = FindTextComponent(finalScoreTextObj, "FinalScoreText");
+        }
+            
+        winMenuUI.SetActive(false);
         gameOverUI = GameObject.FindGameObjectWithTag("GameOverUI");
         gameOverUI.SetActive(false);
         pauseMenuUI = GameObject.FindGameObjectWithTag("PauseMenuUI");
@@ -94,7 +107,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         if (obj != null)
         {
             TextMeshProUGUI textComponent = obj.GetComponent<TextMeshProUGUI>();
-           
+
             if (textComponent != null)
             {
                 return textComponent;
@@ -122,7 +135,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         multiplier = 1;
         UpdateScoreUI();
     }
-    
+
     public void AddScore(int basePoints)
     {
         if (combo > 0)
@@ -138,7 +151,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         UpdateScoreUI();
     }
 
-    
+
     public void IncrementCombo()
     {
         combo++;
@@ -157,8 +170,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
             {
                 GameOver();
                 gameOverUI.SetActive(true);
-                
-                
+
             }
             else
             {
@@ -171,7 +183,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         if (ControllerManager.Instance != null)
             ControllerManager.Instance.EnableAllInteractors();
         // Stop spawning new cubes
-        FindObjectOfType<CubeSpawner>()?.StopSpawning();
+        FindObjectOfType<CubeSpawner>().StopSpawning();
         ApplyGravityToCubes();
 
         // Slow down time
@@ -193,8 +205,13 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     }
     public void ResetGame()
     {
-        Time.timeScale = 1;
-        AudioManager.Instance.musicSource.pitch = 1;
+        StopAllCoroutines();  // Stop ongoing coroutine SlowTimeAndMusic
+
+        Time.timeScale = 1;   // Reset time scale immediately
+        if (AudioManager.Instance != null && AudioManager.Instance.musicSource != null)
+        {
+            AudioManager.Instance.musicSource.pitch = 1;  // Reset music pitch immediately
+        }
         missCount = 0;        // Reset miss count
         score = 0;            // Reset score
         combo = 0;            // Reset combo
@@ -204,19 +221,23 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         pauseMenuUI.SetActive(false);
 
         cubeSpawner = FindObjectOfType<CubeSpawner>();
-        cubeSpawner.stopSpawning = false;
-    }
-    IEnumerator SlowTime()
-    {
-        float t = 0.5f;
-        while (Time.timeScale > 0.1f)
+        if (cubeSpawner != null)
         {
-            Time.timeScale = Mathf.Lerp(Time.timeScale, 0, t);
-            t += Time.deltaTime;
-            yield return null;
+            cubeSpawner.stopSpawning = false;
         }
-        Time.timeScale = 0;  // Freeze time completely
+        else
+        {
+            Debug.LogError("CubeSpawner not found!");
+        }
     }
+    public void DisplayWinUI()
+    {
+        finalScoreText.text = $"Final Score: {score}"; // Update the final score text
+        winMenuUI.SetActive(true); // Show win menu UI
+        gameOverUI.SetActive(false); // Ensure game over UI is not shown
+        StartCoroutine(SlowTimeAndMusic());
+    }
+
     IEnumerator SlowTimeAndMusic()
     {
         float startPitch = AudioManager.Instance.musicSource.pitch;

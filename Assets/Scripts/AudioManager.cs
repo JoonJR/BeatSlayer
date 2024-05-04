@@ -72,7 +72,7 @@ public class AudioManager : MonoBehaviour
         {
             int randomIndex = Random.Range(0, missEffects.Count);
             sfxSource.PlayOneShot(missEffects[randomIndex]);
-            Debug.Log("Playing " + missEffects[randomIndex]);
+            //Debug.Log("Playing " + missEffects[randomIndex]);
         }
     }
 }

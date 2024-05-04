@@ -6,7 +6,7 @@ public class MissZone : MonoBehaviour
     {
         if (other.CompareTag("Cube"))
         {
-            Debug.Log("Combo reset");
+            //Debug.Log("Combo reset");
             AudioManager.Instance.PlayMissEffect();
             ScoreManager.Instance.MissedNote();
             ScoreManager.Instance.ResetCombo();
