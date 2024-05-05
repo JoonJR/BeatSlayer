@@ -1,25 +1,62 @@
 using System.Linq;
 using UnityEngine;
-
+using System.Collections;
 public class ControllerManager : MonoBehaviour
 {
-    private static ControllerManager _instance;
-    public static ControllerManager Instance;
-
+    
     public RayController leftRayController;
     public RayController rightRayController;
 
-    void Awake()
+    public GameObject leftSaber;
+    public GameObject rightSaber;
+
+
+    private void Start()
     {
-        if (Instance != null && Instance != this)
+        StartCoroutine(FindSabersWithRetry());
+    }
+    private IEnumerator FindSabersWithRetry()
+    {
+        while (leftSaber == null || rightSaber == null)
         {
-            Destroy(gameObject);
-            return;
+            leftSaber = GameObject.FindGameObjectWithTag("Saber");
+            rightSaber = GameObject.FindGameObjectWithTag("Saber1");
+            if (leftSaber == null || rightSaber == null)
+            {
+                yield return new WaitForSeconds(1); // Wait for 1 second before retrying
+            }
         }
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        Debug.Log("Sabers found!");
+    }
+    public void EnableSabersColliders()
+    {
+        ToggleSabersColliders(true);
     }
 
+    public void DisableSabersColliders()
+    {
+        ToggleSabersColliders(false);
+    }
+    private void ToggleSabersColliders(bool enabled)
+    {
+        if (leftSaber != null)
+        {
+            var collider = leftSaber.GetComponent<Collider>();
+            if (collider != null)
+            {
+                collider.enabled = enabled;
+            }
+        }
+
+        if (rightSaber != null)
+        {
+            var collider = rightSaber.GetComponent<Collider>();
+            if (collider != null)
+            {
+                collider.enabled = enabled;
+            }
+        }
+    }
     public void EnableAllInteractors()
     {
         RefreshControllers(); // Refresh references before enabling.

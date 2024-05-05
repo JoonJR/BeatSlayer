@@ -397,7 +397,7 @@ MonoBehaviour:
   combo: 0
   multiplier: 1
   missCount: 0
-  maxAllowedMisses: 1000
+  maxAllowedMisses: 5
   scoreText: {fileID: 0}
   comboText: {fileID: 0}
   multiplierText: {fileID: 0}

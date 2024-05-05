@@ -37,7 +37,7 @@ public class SaberCollision : MonoBehaviour
         Quaternion rotation = Quaternion.LookRotation(rayDirection, transform.up); // Calculate rotation based on forward direction and up direction of the saber
         rayDirection = rotation * Quaternion.Euler(0, 90, 0) * Vector3.forward; // Apply additional rotation
         Vector3 rayStartPoint = saberStartingPoint.position; // Use the position of the child object as the starting point
-        float rayLength = 1f; // Adjust the length of the ray as needed
+        float rayLength = 1f; // Adjust the length of the ray 
         Debug.DrawRay(rayStartPoint, rayDirection * rayLength, Color.blue);
         if (Physics.Raycast(rayStartPoint, rayDirection, out hit, rayLength))
         {
@@ -79,7 +79,7 @@ public class SaberCollision : MonoBehaviour
         {
             if (controller != null)
             {
-                controller.SendHapticImpulse(0.5f, 0.2f); // Adjust intensity and duration as needed
+                controller.SendHapticImpulse(0.5f, 0.2f);
             }
         }
     }

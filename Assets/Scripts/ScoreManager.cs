@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy to move them any i think... 
+public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy to move them anymore i think... 
 {
     private static ScoreManager _instance;
     public static ScoreManager Instance => _instance;
@@ -64,7 +64,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
         }
         if (scene.name == "RainingBloodTeacher" | scene.name == "RainingBloodJoona" | scene.name == "RainingBloodHaveFun))")
         {
-            ControllerManager.Instance.DisableAllInteractors();
+            //ControllerManager.Instance.DisableAllInteractors();
             //leftRayController = GameObject.FindGameObjectWithTag("LeftController").GetComponent<RayController>();
             //rightRayController = GameObject.FindGameObjectWithTag("LeftController").GetComponent<RayController>();
             //leftRayController.DisableRayInteractor();
@@ -180,26 +180,42 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     }
     void GameOver()
     {
-        if (ControllerManager.Instance != null)
-            ControllerManager.Instance.EnableAllInteractors();
+        //if (ControllerManager.Instance != null)
+        //ControllerManager.Instance.EnableAllInteractors();
         // Stop spawning new cubes
+        
         FindObjectOfType<CubeSpawner>().StopSpawning();
         ApplyGravityToCubes();
+        ControllerManager controllerManager = FindObjectOfType<ControllerManager>();
+        controllerManager.DisableSabersColliders();
+        // Find the XR Rig and enable gravity
+        GameObject xrRig = GameObject.FindGameObjectWithTag("XRRig"); // Make sure the XR Rig is tagged properly
+        XRGravityManager gravityManager = xrRig.GetComponent<XRGravityManager>();
+        if (gravityManager != null)
+        {
+            gravityManager.EnableGravity();
+        }
+        else
+        {
+            Debug.LogError("XRGravityManager component not found on the XR Rig!");
+        }
 
         // Slow down time
-        StartCoroutine(SlowTimeAndMusic());
+        StartCoroutine(SlowTimeAndMusic(1.3f));
     }
     private void ApplyGravityToCubes()
     {
         var cubes = FindObjectsOfType<MoveTowardsPlayer>();
         foreach (var cube in cubes)
         {
+            cube.speed = 0;
             var rb = cube.GetComponent<Rigidbody>();
             if (rb != null)
             {
                 rb.isKinematic = false;
                 rb.useGravity = true;
-                Destroy(cube.gameObject); // Ensure objects are destroyed correctly.
+                new WaitForSeconds(1.5f);
+                //Destroy(cube.gameObject); // Ensure objects are destroyed correctly.
             }
         }
     }
@@ -232,16 +248,20 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     }
     public void DisplayWinUI()
     {
+        
         finalScoreText.text = $"Final Score: {score}"; // Update the final score text
         winMenuUI.SetActive(true); // Show win menu UI
         gameOverUI.SetActive(false); // Ensure game over UI is not shown
-        StartCoroutine(SlowTimeAndMusic());
+        StartCoroutine(SlowTimeAndMusic(0));
+       // if (ControllerManager.Instance != null)
+           // ControllerManager.Instance.EnableAllInteractors();
     }
 
-    IEnumerator SlowTimeAndMusic()
+    IEnumerator SlowTimeAndMusic(float delay)
     {
+        yield return new WaitForSeconds(delay);
         float startPitch = AudioManager.Instance.musicSource.pitch;
-        float duration = 1.5f;  // Duration over which to slow down
+        float duration = 2f;  // Duration over which to slow down
         float elapsed = 0;
 
         while (elapsed < duration)

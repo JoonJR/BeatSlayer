@@ -23,7 +23,7 @@ public class RayController : MonoBehaviour
         if (!controllerInteractor)
             controllerInteractor = GetComponentInChildren<XRBaseControllerInteractor>(true);
 
-        // Log an error if components are still missing after an attempt to assign them.
+       
         if (!lineVisual || !controllerInteractor)
             Debug.LogError("RayController: Failed to find necessary components on " + gameObject.name, this);
     }

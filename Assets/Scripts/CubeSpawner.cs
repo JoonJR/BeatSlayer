@@ -18,6 +18,10 @@ public class CubeSpawner : MonoBehaviour
     public float spawnRate = 1.0f; // Base spawn rate
     public bool stopSpawning = false;
 
+    private bool isPaused = false;
+    private double pauseStartTime;
+    private double pauseDuration = 0;
+
     public delegate void OnAllCubesSpawned();
     public event OnAllCubesSpawned AllCubesSpawned;
 
@@ -70,13 +74,28 @@ public class CubeSpawner : MonoBehaviour
         if (!allEventsProcessed)
             CheckSpawnEvents();
     }
+    public void ResumeSpawning()
+    {
+        stopSpawning = false;
+        if (isPaused)
+        {
+            pauseDuration += AudioSettings.dspTime - pauseStartTime;
+            isPaused = false;
+        }
+    }
+    public void PauseSpawning()
+    {
+        stopSpawning = true;
+        isPaused = true;
+        pauseStartTime = AudioSettings.dspTime;
+    }
     private void CheckSpawnEvents()
     {
         if (spawnPattern != null && spawnPattern.events != null && !allEventsProcessed)
         {
             float bpm = 126f;
             // Get the current DSP time
-            double currentTime = AudioSettings.dspTime - startTime;
+            double currentTime = AudioSettings.dspTime - startTime - pauseDuration;
 
             // Iterate through the list in reverse order
             for (int i = spawnPattern.events.Count - 1; i >= 0; i--)
@@ -182,12 +201,12 @@ public class CubeSpawner : MonoBehaviour
         if (AllCubesSpawned != null)
             AllCubesSpawned();
 
-        ScoreManager.Instance.DisplayWinUI(); // This will trigger the display of the win menu and final score
+        ScoreManager.Instance.DisplayWinUI(); 
     }
 }
 
 
-// Define the data structures (can be placed in a separate script if preferred)
+// Define the data structures
 public class SpawnEvent
 {
     public float time;

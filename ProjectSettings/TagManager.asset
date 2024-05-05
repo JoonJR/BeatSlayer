@@ -18,6 +18,8 @@ TagManager:
   - GameWonCanvas
   - WinMenuUI
   - Saber1
+  - CountdownText
+  - XRRig
   layers:
   - Default
   - TransparentFX
