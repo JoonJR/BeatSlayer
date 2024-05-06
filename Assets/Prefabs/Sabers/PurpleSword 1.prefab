@@ -253,6 +253,7 @@ MonoBehaviour:
   crossSectionMaterial: {fileID: 2100000, guid: 081d6f86838a8bf458c19a37ce993c29,
     type: 2}
   cutForce: 3000
+  trailRenderer: {fileID: 0}
 --- !u!114 &6549193969512212456
 MonoBehaviour:
   m_ObjectHideFlags: 0

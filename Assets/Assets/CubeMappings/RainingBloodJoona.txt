@@ -4,42 +4,42 @@
             "time": 16.5,
             "lineIndex": 1,
             "lineLayer": 0,
-            "type": 1,
+            "type": 0,
             "cutDirection": 1
         },
         {
             "time": 16.5,
             "lineIndex": 2,
             "lineLayer": 0,
-            "type": 0,
+            "type": 1,
             "cutDirection": 1
         },
         {
             "time": 16.75,
             "lineIndex": 1,
             "lineLayer": 0,
-            "type": 1,
+            "type": 0,
             "cutDirection": 0
         },
         {
             "time": 16.75,
             "lineIndex": 2,
             "lineLayer": 0,
-            "type": 0,
+            "type": 1,
             "cutDirection": 0
         },
         {
             "time": 17,
             "lineIndex": 1,
             "lineLayer": 0,
-            "type": 1,
+            "type": 0,
             "cutDirection": 1
         },
         {
             "time": 17,
             "lineIndex": 2,
             "lineLayer": 0,
-            "type": 0,
+            "type": 1,
             "cutDirection": 1
         },
         {

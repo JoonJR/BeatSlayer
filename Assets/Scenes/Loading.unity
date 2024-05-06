@@ -254,7 +254,8 @@ MonoBehaviour:
   sfxSource: {fileID: 544851760}
   slayMusic: {fileID: 8300000, guid: 50edd28222f777f47b9f19e7411fa705, type: 3}
   "r\xF6lliMusic": {fileID: 8300000, guid: 1415a3ea400a6664c9a8e8b06083e3dc, type: 3}
-  sliceEffect: {fileID: 8300000, guid: 17c15eaf8b6a02a4ab0cc52f1d8cfceb, type: 3}
+  bblDrizzy: {fileID: 8300000, guid: dcc77d7bccdf6cb4e83d33652be8a5a7, type: 3}
+  sliceEffect: {fileID: 8300000, guid: 53c658254526b834b80cb66b2e6492d0, type: 3}
   missEffects:
   - {fileID: 8300000, guid: f93a061cc20b8914bb32b4bbc9ebbe0d, type: 3}
   - {fileID: 8300000, guid: 4fedef6323f21764086fae67ff0f79a5, type: 3}

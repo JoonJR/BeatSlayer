@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
 
         if (scene.name == "RainingBloodTeacher")
         {
-            Debug.Log("Playing scene-specific music");
+            Debug.Log("Playing Rölli");
             PlayMusic(rölliMusic);
         }
         else if (scene.name == "RainingBloodJoona" || scene.name == "RainingBloodHaveFun))")

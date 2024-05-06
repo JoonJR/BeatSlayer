@@ -214,7 +214,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
             {
                 rb.isKinematic = false;
                 rb.useGravity = true;
-                new WaitForSeconds(1.5f);
+                new WaitForSeconds(1f);
                 //Destroy(cube.gameObject); // Ensure objects are destroyed correctly.
             }
         }
@@ -261,7 +261,7 @@ public class ScoreManager : MonoBehaviour // More like gamemanager but too lazy 
     {
         yield return new WaitForSeconds(delay);
         float startPitch = AudioManager.Instance.musicSource.pitch;
-        float duration = 2f;  // Duration over which to slow down
+        float duration = 1.5f;  // Duration over which to slow down
         float elapsed = 0;
 
         while (elapsed < duration)

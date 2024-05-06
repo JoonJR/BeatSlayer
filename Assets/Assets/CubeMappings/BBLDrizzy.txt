@@ -1,0 +1,6213 @@
+{
+    "events": [
+        {
+            "time": 2.026666666666667,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 2.026666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 2.1173333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 2.405333333333333,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 2.64,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 2.8266666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 3.024,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 3.2266666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 3.4186666666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 3.610666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 3.8133333333333335,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 4.021333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 4.416,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 4.6240000000000006,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 4.810666666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 5.008,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 5.189333333333334,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 5.450666666666667,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 6,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 6.197333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 6.378666666666667,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 6.618666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 6.789333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 7.018666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 7.226666666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 7.424,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 7.610666666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 7.973333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 8.202666666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 8.426666666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 8.821333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 9.002666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 9.221333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 9.413333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 9.610666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 9.808,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 10,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 10.224,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 10.426666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 10.826666666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 10.826666666666666,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 11.034666666666666,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 11.226666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 11.616,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 11.616,
+            "cutDirection": 5,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 12.026666666666667,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 12.229333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 12.410666666666666,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 12.618666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 12.618666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 12.821333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 12.821333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 13.024,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 13.12,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 13.429333333333334,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 13.637333333333334,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 13.637333333333334,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 14.021333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 14.021333333333333,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 14.229333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 14.229333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 14.426666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 14.618666666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 14.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 15.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 15.626666666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 15.626666666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 15.802666666666667,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 16.016,
+            "cutDirection": 2,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 16.224,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 16.384,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 16.59733333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 16.59733333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 16.832,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 17.034666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 17.21066666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 17.413333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 17.621333333333332,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 17.818666666666665,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 17.994666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 18.245333333333335,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 18.618666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 18.618666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 18.805333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 2
+        },
+        {
+            "time": 19.024,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 19.226666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 19.424,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 19.6,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 19.829333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 20.026666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 20.202666666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 20.421333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 20.421333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 20.698666666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 20.698666666666668,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 20.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 21.002666666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 21.2,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 21.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 21.818666666666665,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 22.010666666666665,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 22.213333333333335,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 22.416,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 22.613333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 22.784,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 23.024,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 23.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 23.573333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 24,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 24.245333333333335,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 24.416,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 24.618666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 1
+        },
+        {
+            "time": 24.618666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 24.709333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 24.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 25.002666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 25.189333333333334,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 25.413333333333334,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 25.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 25.818666666666665,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 26.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 26.208,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 26.416,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 26.608,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 26.784,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 26.976,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 27.162666666666667,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 27.392,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 27.621333333333332,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 27.824,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 28.026666666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 28.213333333333335,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 28.4,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 28.565333333333335,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 28.805333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 28.805333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 28.976,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 29.221333333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 29.392,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 29.6,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 29.722666666666665,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 30.021333333333335,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 30.021333333333335,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 30.213333333333335,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 30.405333333333335,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 30.608,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 30.82133333333333,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 31.018666666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 31.221333333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 31.221333333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 31.621333333333332,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 31.786666666666665,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 32.010666666666665,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 32.16,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 32.416,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 32.416,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 32.629333333333335,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 32.842666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 32.842666666666666,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 32.99733333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 33.42933333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 33.42933333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 33.584,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 34.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 34.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 34.384,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 34.816,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 34.816,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 35.013333333333335,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 35.41866666666667,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 35.818666666666665,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 36.02133333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 36.416,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 36.61866666666667,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 37.221333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 37.61066666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 37.61066666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 37.70133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 38.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 38.624,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 39.013333333333335,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 39.013333333333335,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 39.216,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 39.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 39.818666666666665,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 39.909333333333336,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 40.218666666666664,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 40.42133333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 40.78933333333333,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 41.216,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 41.818666666666665,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 41.818666666666665,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 42.218666666666664,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 42.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 42.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 42.816,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 43.024,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 43.024,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 43.41866666666667,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 43.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 44.02133333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 44.02133333333333,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 44.112,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 44.416,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 44.816,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 45.01866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 45.114666666666665,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 45.41866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 45.41866666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 45.62133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 2,
+            "lineIndex": 0
+        },
+        {
+            "time": 45.62133333333333,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 45.712,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 46.016,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 46.218666666666664,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 46.309333333333335,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 46.624,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 46.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 47.616,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 48.016,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 48.21333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 48.624,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 48.821333333333335,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 49.216,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 49.41866666666667,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 49.41866666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 49.824,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 49.824,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 50.02133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 50.4,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 50.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 51.034666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 51.413333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 51.413333333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 51.81333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 52.02133333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 52.02133333333333,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 52.416,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 2,
+            "lineIndex": 1
+        },
+        {
+            "time": 52.61866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 52.821333333333335,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 53.008,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 53.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 53.568,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 53.568,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 54.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 54.21333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 54.624,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 54.986666666666665,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 55.221333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 55.616,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 55.81333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 55.91466666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 56.21333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 56.309333333333335,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 56.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 56.61866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 56.82666666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 57.216,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 57.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 57.584,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 57.824,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 57.824,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 58.224,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 58.416,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 58.816,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 59.024,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 59.024,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 2
+        },
+        {
+            "time": 59.40266666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 59.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 59.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 59.818666666666665,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 60.026666666666664,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 60.416,
+            "cutDirection": 5,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 60.816,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 61.013333333333335,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 61.413333333333334,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 61.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 61.70666666666666,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 62.016,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 62.218666666666664,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 62.61866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 62.61866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 62.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 63.221333333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 63.312,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 63.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 63.818666666666665,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 64.01066666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 64.21866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 64.61866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 64.82133333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 64.82133333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 64.97066666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 65.22133333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 65.22133333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 65.36533333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 65.632,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 66.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 66.39466666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 66.39466666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 66.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 67.41333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 67.41333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 67.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 67.81866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 68.02133333333333,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 68.416,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 68.416,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 68.61866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 68.61866666666667,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 2,
+            "lineIndex": 2
+        },
+        {
+            "time": 68.976,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 69.21066666666667,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 69.30133333333333,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 69.616,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 70.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 70.016,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 70.61333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 70.61333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 71.01333333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 71.21066666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 71.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 71.81866666666667,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 72.02133333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 72.02133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 72.21866666666666,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 72.416,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 72.816,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 73.216,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 73.41333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 73.81866666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 73.91466666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 74.21866666666666,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 74.42133333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 74.42133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 74.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 75.01866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 75.616,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 76.02666666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 76.416,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 76.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 76.816,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 76.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 77.01866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 77.01866666666666,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 77.2,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 77.424,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 77.424,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 77.58933333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 78.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 78.21866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 78.31466666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 78.58666666666667,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 78.82133333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 79.168,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 79.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 80.016,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 80.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 80.21866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 80.61866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 80.816,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 81.216,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 81.41866666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 81.50933333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 81.81866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 81.81866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 82.016,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 82.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 82.816,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 83.14666666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 83.37066666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 83.37066666666666,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 83.47733333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 83.81333333333333,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 84.02666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 84.12266666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 84.416,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 84.61866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 84.99733333333333,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 85.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 85.568,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 86.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 86.256,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 86.61333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 86.98666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 87.22133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 87.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 87.81333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 87.99466666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 88.21333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 88.42133333333334,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 88.42133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 88.82133333333333,
+            "cutDirection": 5,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 88.82133333333333,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 88.912,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 89.216,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 89.216,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 89.59466666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 89.81333333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 90,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 90.21333333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 90.42133333333334,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 90.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 91.01333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 91.22133333333333,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 91.408,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 91.67466666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 91.79733333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 92.04266666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 92.34666666666666,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 92.608,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 92.71466666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 92.944,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 93.04533333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 93.34933333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 93.34933333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 93.616,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 93.712,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 94.01066666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 94.224,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 94.448,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 94.448,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 94.58666666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 94.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 95.02933333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 95.02933333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 95.23733333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 95.616,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 95.80266666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 96.01066666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 96.19733333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 96.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 96.61866666666667,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 96.832,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 96.93866666666666,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 97.216,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 97.216,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 97.67466666666667,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 98.016,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 98.40533333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 98.64,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 98.64,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 98.82666666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 99.024,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 99.22666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 99.41866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 99.61066666666666,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 99.81333333333333,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 100.02133333333333,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 100.416,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 100.416,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 100.624,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 100.80533333333334,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 101.008,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 101.18933333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 101.45066666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 101.45066666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 102,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 102,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 102.19733333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 102.41066666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 102.41066666666667,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 102.61866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 102.784,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 103.01866666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 103.01866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 103.22666666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 103.424,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 103.61066666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 103.97333333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 104.20266666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 104.20266666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 104.42666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 104.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 105.00266666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 105.22133333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 105.41333333333333,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 105.61066666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 105.808,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 106,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 106.224,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 106.42133333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 106.82666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 107.03466666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 107.22666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 107.616,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 107.616,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 108.01066666666667,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 108.22933333333333,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 108.416,
+            "cutDirection": 5,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 108.61866666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 108.82133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 109.024,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 109.12,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 109.44,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 109.648,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 110.048,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 110.048,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 110.22933333333333,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 110.42666666666666,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 110.61866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 110.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 110.90666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 111.216,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 111.62666666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 111.62666666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 111.80266666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 112.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 112.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 112.26666666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 112.384,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 112.59733333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 112.832,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 113.03466666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 113.21066666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 113.41333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 113.62133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 113.81866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 113.99466666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 114.24533333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 114.61866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 114.61866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 114.80533333333334,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 115.024,
+            "cutDirection": 2,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 115.22666666666667,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 115.22666666666667,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 115.424,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 115.6,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 115.82933333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 115.82933333333334,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 116.02666666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 116.20266666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 116.40533333333333,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 116.40533333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 116.69866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 116.69866666666667,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 116.816,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 117.00266666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 117.216,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 117.62133333333334,
+            "cutDirection": 3,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 117.62133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 118.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 118.21333333333334,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 118.61333333333333,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 118.704,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 119.024,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 119.024,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 119.216,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 119.312,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 119.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 119.824,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 119.91466666666666,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 120.02133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 120.42666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 120.82666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 120.82666666666667,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 121.216,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 121.42933333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 121.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 121.824,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 122.224,
+            "cutDirection": 3,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 122.416,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 122.816,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 123.00266666666667,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 123.392,
+            "cutDirection": 3,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 123.61066666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 123.81866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 124.016,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 124.21333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 124.416,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 124.416,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 124.608,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 124.77866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 125.01333333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 125.01333333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 125.37066666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 125.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 125.616,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 126.016,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 126.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 126.21333333333334,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 126.41066666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 126.61333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 126.816,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 127.01866666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 127.01866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 127.18933333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 127.28,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 127.616,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 127.616,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 127.81333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 128.01066666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 128.21866666666665,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 128.416,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 128.61866666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 128.61866666666668,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 128.976,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 128.976,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 129.22133333333335,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 129.392,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 129.76533333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 129.76533333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 130.016,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 130.41066666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 130.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 131.41333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 131.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 131.81866666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 132.02133333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 132.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 132.61866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 132.976,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 133.21066666666667,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 133.30133333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 133.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 134.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 134.61333333333334,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 135.01333333333332,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 135.22133333333332,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 135.22133333333332,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 135.616,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 135.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 135.81333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 136.02133333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 136.21866666666668,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 136.416,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 136.816,
+            "cutDirection": 3,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 137.216,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 137.41333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 137.81866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 137.91466666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 138.21866666666668,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 138.21866666666668,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 138.42133333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 138.42133333333334,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 138.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 138.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 139.01866666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 139.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 139.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 140.02666666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 140.416,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 140.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 141.01866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 141.01866666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 141.184,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 141.424,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 141.58933333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 142.016,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 142.21866666666668,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 142.31466666666665,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 142.58666666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 142.816,
+            "cutDirection": 2,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 143.184,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 143.616,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 143.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 144.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 144.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 144.21866666666668,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 144.61866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 144.61866666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 144.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 145.216,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 145.41866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 145.824,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 146.016,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 146.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 146.816,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 147.17866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 147.38666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 147.616,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 147.81866666666667,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 147.81866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 148.02133333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 148.02133333333333,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 2,
+            "lineIndex": 2
+        },
+        {
+            "time": 148.416,
+            "cutDirection": 5,
+            "type": 0,
+            "lineLayer": 2,
+            "lineIndex": 1
+        },
+        {
+            "time": 148.416,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 148.61866666666666,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 149.01866666666666,
+            "cutDirection": 3,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 149.01866666666666,
+            "cutDirection": 4,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 149.216,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 149.568,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 149.568,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 150.016,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 150.256,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 150.256,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 150.61333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 150.61333333333334,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 150.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 150.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 150.98666666666668,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 151.22133333333332,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 151.22133333333332,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 151.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 151.81333333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 151.99466666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 152.21333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 152.42133333333334,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 152.42133333333334,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 152.82133333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 152.912,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 153.216,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 153.59466666666665,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 153.81333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 153.81333333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 154.016,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 154.016,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 154.21333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 154.42133333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 154.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 155.01333333333332,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 155.22133333333332,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 155.38666666666666,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 155.67466666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 155.67466666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 156.32533333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 156.32533333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 156.60266666666666,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 156.71466666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 157.22666666666666,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 157.34933333333333,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 157.616,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 157.616,
+            "cutDirection": 3,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 157.712,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 158.01066666666668,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 158.01066666666668,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 158.224,
+            "cutDirection": 3,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 158.224,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 158.448,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 158.58666666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 158.82133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 158.82133333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 159.02933333333334,
+            "cutDirection": 2,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 159.23733333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 159.78666666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 160.01066666666668,
+            "cutDirection": 2,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 160.19733333333335,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 160.61866666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 160.83733333333333,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 160.93866666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 161.248,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 161.36533333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 161.57333333333332,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 161.67466666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 162.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 162.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 162.37333333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 162.37333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 162.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 162.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 163.168,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 163.41866666666667,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 163.41866666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 163.616,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 163.81333333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 163.936,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 164.416,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 164.98133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 165.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 165.216,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 165.584,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 166.016,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 166.352,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 166.352,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 166.624,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 166.624,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 166.72,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 166.816,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 167.17333333333335,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 167.26933333333332,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 167.584,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 167.584,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 168.016,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 168.31466666666665,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 168.40533333333335,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 168.80533333333332,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 169.168,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 169.57333333333332,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 169.808,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 170,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 170.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 170.8,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 171.17333333333335,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 171.32266666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 171.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 171.94666666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 171.94666666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 172.048,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 172.416,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 172.816,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 173.01866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 173.12,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 173.216,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 173.46133333333333,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 173.46133333333333,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 173.856,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 173.856,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 173.94666666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 174.31466666666665,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 174.416,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 174.57066666666665,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 174.816,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 174.816,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 175.18933333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 175.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 175.81333333333333,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 176.21866666666668,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 176.30933333333334,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 176.61333333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 176.81066666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 177.216,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 177.216,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 177.39733333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 177.78133333333332,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 178.02133333333333,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 178.02133333333333,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 178.41066666666666,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 178.50133333333332,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 178.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 179.184,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 179.184,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 179.40266666666668,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 179.49866666666668,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 179.81866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 180.016,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 180.416,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 180.61866666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 181.01866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 181.01866666666666,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 181.216,
+            "cutDirection": 6,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 181.51466666666667,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 181.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 182.016,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 182.60266666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 183.01866666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 183.216,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 183.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 183.616,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 183.81333333333333,
+            "cutDirection": 5,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 184.192,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 184.288,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 184.416,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 184.61866666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 184.82133333333334,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 184.82133333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 185.216,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 185.216,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 185.616,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 185.616,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 185.81866666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 186.21866666666668,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 186.42133333333334,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 186.816,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 187.01866666666666,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 187.424,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 187.616,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 187.81866666666667,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 188.016,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 188.416,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 188.416,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 188.816,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 189.01333333333332,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 189.424,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 189.424,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 189.62133333333333,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 189.712,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 190.016,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 190.20266666666666,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 190.60266666666666,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 190.82133333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 191.22133333333332,
+            "cutDirection": 2,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 191.22133333333332,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 191.616,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 191.97866666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 192.21333333333334,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 192.61333333333334,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 192.82133333333334,
+            "cutDirection": 4,
+            "type": 0,
+            "lineLayer": 1,
+            "lineIndex": 0
+        },
+        {
+            "time": 193.38133333333334,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 194.016,
+            "cutDirection": 7,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 194.72,
+            "cutDirection": 7,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 195.94666666666666,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        },
+        {
+            "time": 196.42666666666668,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 2,
+            "lineIndex": 3
+        },
+        {
+            "time": 197.00266666666667,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 1
+        },
+        {
+            "time": 197.00266666666667,
+            "cutDirection": 1,
+            "type": 1,
+            "lineLayer": 1,
+            "lineIndex": 3
+        },
+        {
+            "time": 198.624,
+            "cutDirection": 0,
+            "type": 1,
+            "lineLayer": 0,
+            "lineIndex": 3
+        },
+        {
+            "time": 198.624,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 199.23733333333334,
+            "cutDirection": 6,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 199.872,
+            "cutDirection": 0,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 0
+        },
+        {
+            "time": 201.808,
+            "cutDirection": 1,
+            "type": 0,
+            "lineLayer": 0,
+            "lineIndex": 2
+        }
+    ]
+}

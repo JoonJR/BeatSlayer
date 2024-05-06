@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564a3e3307436f348aa0efc988f90dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityAverageFrames: 5
-  angularVelocityAverageFrames: 11
+  velocityAverageFrames: 3
+  angularVelocityAverageFrames: 9
   estimateOnAwake: 0
 --- !u!1 &7496949883790313776
 GameObject:

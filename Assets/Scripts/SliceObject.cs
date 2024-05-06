@@ -14,6 +14,8 @@ public class SliceObject : MonoBehaviour
     public float cutForce = 2000f;
 
     private XRBaseController controller; // Reference to the XR controller for haptic feedback
+    private Vector3 lastStartPoint;
+    private Vector3 lastEndPoint;
 
     void Start()
     {
@@ -23,21 +25,41 @@ public class SliceObject : MonoBehaviour
         {
             Debug.LogError("XRBaseController not found on parent GameObjects!");
         }
+        lastStartPoint = startSlicePoint.position;
+        lastEndPoint = endSlicePoint.position;
     }
 
     void FixedUpdate()
     {
-        bool hasHit = Physics.Linecast(startSlicePoint.position, endSlicePoint.position, out RaycastHit hit, sliceableLayers);
-        if (hasHit)
+        Vector3 currentStartPoint = startSlicePoint.position;
+        Vector3 currentEndPoint = endSlicePoint.position;
+
+        // Interpolate between the last and current positions to cover all potential collision space
+        int interpolationSteps = 10; 
+        for (int i = 0; i <= interpolationSteps; i++)
         {
-            GameObject target = hit.transform.gameObject;
-            Cube cube = target.GetComponent<Cube>();
-            if (cube != null && cube.IsCorrectSliceDirection(velocityEstimator.GetVelocityEstimate()))
+            float t = (float)i / interpolationSteps;
+            Vector3 interpolatedStart = Vector3.Lerp(lastStartPoint, currentStartPoint, t);
+            Vector3 interpolatedEnd = Vector3.Lerp(lastEndPoint, currentEndPoint, t);
+
+            RaycastHit hit;
+            if (Physics.Linecast(interpolatedStart, interpolatedEnd, out hit, sliceableLayers))
             {
-                Slice(target);
-                AudioManager.Instance.PlaySliceEffect();
+                GameObject target = hit.transform.gameObject;
+                Cube cube = target.GetComponent<Cube>();
+                if (cube != null && cube.IsCorrectSliceDirection(velocityEstimator.GetVelocityEstimate()))
+                {
+                    AudioManager.Instance.PlaySliceEffect();
+                    Slice(target);
+                    
+                    break; 
+                }
             }
         }
+
+        // Update last positions for the next frame
+        lastStartPoint = currentStartPoint;
+        lastEndPoint = currentEndPoint;
     }
 
     private void Slice(GameObject target)
@@ -69,9 +91,7 @@ public class SliceObject : MonoBehaviour
             {
                 ScoreManager.Instance.AddScore(25);
                 ScoreManager.Instance.IncrementCombo();
-
             }
-            
 
             Destroy(target);
         }

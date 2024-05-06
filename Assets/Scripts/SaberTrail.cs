@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class SaberTrail : MonoBehaviour
 {
@@ -53,4 +53,4 @@ public class SaberTrail : MonoBehaviour
         trailMesh.triangles = triangles;
         trailMesh.RecalculateBounds();
     }
-}
+}*/
